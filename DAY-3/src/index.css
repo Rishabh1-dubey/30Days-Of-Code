@@ -2,12 +2,16 @@
  margin: 20px;
  padding: 0;
  gap: 20px;
+ list-style: none;
  display: grid;
- grid-template-columns: 1fr,1fr,1fr;
+ grid-template-columns: 1fr 1fr 1fr;
 }
 
+
 .product--signam{
+ width: 380px;
  height: 230px;
+ list-style:none;
  padding: 20px;
  background-color: gray;
  text-align: center;
@@ -19,4 +23,22 @@
   height: 95%;
   object-fit: cover;
   margin-bottom: 3px;
+}
+.pagination{
+  padding:20px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination span{
+  padding:14px 20px;
+  border:1px solid gray;
+  cursor:  pointer;
+}
+.pagination_selector{
+  background-color: rgb(155, 128, 128);
+}
+.pagination__disable{
+  opacity: 0;
 }
